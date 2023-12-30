@@ -39,10 +39,10 @@ user_agents = [
 
 
 def make_header():
-    '''
-        Chooses a random agent from user_agents with which to construct headers
-        :return headers: dict: HTTP headers to use to get HTML from article URL
-    '''
+    """
+    Chooses a random agent from user_agents with which to construct headers
+    :return headers: dict: HTTP headers to use to get HTML from article URL
+    """
     # Make a header for the ClientSession to use with one of our agents chosen at random
     headers = {
         'User-Agent': random.choice(user_agents),
