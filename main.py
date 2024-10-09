@@ -4,7 +4,7 @@ import time
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from car_data import CarData
+from polovni_automobili.car_data import CarData
 
 
 SITE_URL = "https://www.polovniautomobili.com"
